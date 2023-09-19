@@ -1,0 +1,56 @@
+
+.item{
+    position: relative;
+    cursor: pointer;
+}
+.captionText{
+    position: absolute;
+    width: 80%;
+    background-color: white;
+    bottom: 20px;
+    left: 10%;
+    padding: 10px;
+    text-align: center;
+}
+.captionText:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.lihgtbox{
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.lihgtcontent{
+    width: 500px;
+    height: 750px;
+    background-image: url(assids/image/1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.lihgtcontent button{
+    font-size: 30px;
+}
+.lihgtcontent i{
+    font-size: 30px;
+}
+#close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+button{
+    background: none;
+    border: none;
+}
